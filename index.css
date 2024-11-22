@@ -1,3 +1,38 @@
+/* /* These are all helper classes */
+/* /* These are all helper classes */
+/* /* These are all helper classes */
+.container{
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+.grid{
+    display:grid;
+    gap:7.2rem; 
+}
+
+.grid-2cols{
+    grid-template-columns: repeat(2,1fr);
+}
+.grid-3cols{
+    grid-template-columns: repeat(3,1fr);
+}
+.grid-4cols{
+    grid-template-columns: repeat(4,1fr);
+}
+.margin-right{
+    margin-right: 2.5rem;
+}
+.grid-center{
+    align-items: center;
+}
+.center{
+    text-align: center;
+}
+.margin-bottom{
+    margin-bottom: 6.4rem;
+}
+/* CSS */
 *{
     padding: 0;
     margin: 0;
